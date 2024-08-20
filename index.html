@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Product preview card component | Frontend Mentor</title>
+
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+
+<body>
+  <main>
+    <div class="product-preview-card">
+      <picture>
+        <source media="(min-width: 1440px)" width="300" height="450" srcset="./assets/images/image-product-desktop.jpg">
+        <img class="product-preview-card__product-img" width="343" height="240" src="./assets/images/image-product-mobile.jpg" alt="product">
+      </picture>
+      <div class="product-preview-card__body">
+        <div class="product-preview-card__text-content">
+          <p class="product-preview-card__category">Perfume</p>
+          <p class="product-preview-card__title">Gabrielle Essence Eau De Parfum</p>
+          <p class="product-preview-card__description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+        <div class="product-preview-card__price-and-add">
+          <div class="product-preview-card__price-container">
+            <p class="product-preview-card__new-price">$149.99</p>
+            <p class="product-preview-card__old-price">$169.99</p>
+          </div>
+          <button class="product-preview-card__btn">
+            <img class="product-preview-card__icon" src="./assets/images/icon-cart.svg" alt="cart icon"> Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

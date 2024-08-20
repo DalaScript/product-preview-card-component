@@ -1,0 +1,144 @@
+/* Colors
+ ******************************/
+/* Primary
+ ***************/
+/* Neutral
+***************/
+/* Global Variables
+ ******************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #F2EAE2;
+}
+
+picture {
+  display: flex;
+}
+
+/* Body Variables
+ ******************************/
+main {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-preview-card {
+  width: 343px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.product-preview-card__body {
+  padding: 24px;
+}
+.product-preview-card__text-content {
+  display: flex;
+  flex-direction: column;
+}
+.product-preview-card__category {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #6C7289;
+}
+.product-preview-card__title {
+  margin: 12px 0 16px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #1C232B;
+}
+.product-preview-card__description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #6C7289;
+}
+.product-preview-card__price-and-add {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-preview-card__price-container {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.product-preview-card__new-price {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #3D8168;
+}
+.product-preview-card__old-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  text-decoration-line: line-through;
+  color: #6C7289;
+}
+.product-preview-card__btn {
+  padding: 15px 0 16px;
+  border-radius: 8px;
+  background-color: #3D8168;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11.61px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .product-preview-card__btn {
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+  }
+  .product-preview-card__btn:hover {
+    background-color: #1A4032;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .product-preview-card {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+  }
+  .product-preview-card__body {
+    padding: 32px;
+  }
+  .product-preview-card__title {
+    margin: 20px 0 24px;
+  }
+  .product-preview-card__price-and-add {
+    margin-top: 29px;
+    gap: 30px;
+  }
+}
