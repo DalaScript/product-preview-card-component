@@ -16,7 +16,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
   - [Connect with Me](#Connect-with-Me)
   - [Coding Profiles](#Coding-Profiles)
-  - [Professional Links](#Professional-Links)
 
 ## Overview
 
@@ -74,8 +73,3 @@ First I want to finish the javascript course I'm taking on freecodecamp, I'm als
 - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
 - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
 - [GitHub](https://github.com/DalaScript)
-
-### Professional Links
-
-- [LinkedIn](https://www.linkedin.com/in/nikadalalishvili/)
-- [UpWork](https://www.upwork.com/freelancers/~01fcf99c6c9609988e)
