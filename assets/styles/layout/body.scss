@@ -1,0 +1,12 @@
+/* || Main Element
+ *************************/
+body {
+    background-color: $cream;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

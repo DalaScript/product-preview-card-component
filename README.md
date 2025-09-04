@@ -28,8 +28,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 Users should be able to:
 
-  - View the optimal layout depending on their device's screen size
-  - See hover and focus states for interactive elements
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
 
 ### 📸 Screenshot
 
@@ -37,17 +37,17 @@ Users should be able to:
 
 ### 🔗 Links
 
-  - [🔴 Live Demo](https://dalascript.github.io/product-preview-card-component/)
-  - [🗂️ GitHub Repository](https://github.com/DalaScript/product-preview-card-component)
+- [🔴 Live Demo](https://dalascript.github.io/product-preview-card-component/)
+- [🗂️ GitHub Repository](https://github.com/DalaScript/product-preview-card-component)
 
 ### 🛠️ Built with
 
-  - HTML5
-  - CSS3
-  - Flexbox
-  - Mobile-first workflow
-  - bem - [Block Element Modifier](https://getbem.com/introduction/)
-  - scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
+- HTML5
+- CSS3
+- Flexbox
+- Mobile-first workflow
+- bem - [Block Element Modifier](https://getbem.com/introduction/)
+- scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
 
 ---
 
@@ -55,11 +55,11 @@ Users should be able to:
 
 ### 🔙 Previous Challenge
 
-  - Social Links Profile | *Challenge 4* → [View Repository](https://github.com/DalaScript/social-links-profile)
+- Social Links Profile | *Challenge 4* → [View Repository](https://github.com/DalaScript/social-links-profile)
 
 ### 🔜 Next Challenge
 
-  - Four Card Feature Section | *Challenge 6* → [View Repository](https://github.com/DalaScript/four-card-feature-section)
+- Four Card Feature Section | *Challenge 6* → [View Repository](https://github.com/DalaScript/four-card-feature-section)
 
 ---
 
@@ -67,13 +67,13 @@ Users should be able to:
 
 ### 🌐 Connect with Me
 
-  - [Instagram](https://www.instagram.com/DalaScript)
-  - [YouTube](https://www.youtube.com/@DalaScript)
+- [Instagram](https://www.instagram.com/DalaScript)
+- [YouTube](https://www.youtube.com/@DalaScript)
 
 ### 💻 Coding Profiles
 
-  - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
-  - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
-  - [GitHub](https://github.com/DalaScript)
+- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+- [GitHub](https://github.com/DalaScript)
 
 *🙌 Thanks for checking out my project! More coming soon. Stay tuned 🚀*
