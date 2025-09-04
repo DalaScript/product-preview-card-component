@@ -13,29 +13,29 @@
 
 <body>
   <main>
-    <div class="product-card">
+    <article class="product-card">
       <picture>
-        <source media="(min-width: 1440px)" width="300" height="450" srcset="./assets/images/image-product-desktop.jpg">
-        <img class="product-card__product-img" width="343" height="240" src="./assets/images/image-product-mobile.jpg" alt="product">
+        <source media="(min-width: 1440px)" srcset="./assets/images/image-product-desktop.jpg">
+        <img class="product-card__img" width="343" height="240" src="./assets/images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum bottle">
       </picture>
       <div class="product-card__body">
-        <div class="product-card__text-content">
+        <div class="product-card__details">
           <p class="product-card__category">Perfume</p>
-          <p class="product-card__title">Gabrielle Essence Eau De Parfum</p>
+          <h1 class="product-card__title">Gabrielle Essence Eau De Parfum</h1>
           <p class="product-card__description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
             Perfumer-Creator for the House of CHANEL.</p>
         </div>
-        <div class="product-card__price-and-add">
-          <div class="product-card__price-container">
-            <p class="product-card__new-price">$149.99</p>
-            <p class="product-card__old-price">$169.99</p>
+        <div class="product-card__footer">
+          <div class="product-card__price">
+            <strong class="product-card__price--new">$149.99</strong>
+            <del class="product-card__price--old">$169.99</del>
           </div>
-          <button class="product-card__btn">
-            <img class="product-card__icon" src="./assets/images/icon-cart.svg" alt="cart icon"> Add to Cart
+          <button class="product-card__add-btn" type="button">
+            <img class="product-card__icon" src="./assets/images/icon-cart.svg" alt="" aria-hidden="true"> Add to Cart
           </button>
         </div>
       </div>
-    </div>
+    </article>
   </main>
 </body>
 </html>
